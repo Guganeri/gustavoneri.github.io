@@ -35,13 +35,14 @@
 
 ## Languages
 
-- Portuguese
-- English (C2, B2)
+- Portuguese (C2)
+- English (B2)
 
 ## Professional Experience
 
 ### NEOWAY (BRAZIL) - DevOps Engineer
 - **Since:** Oct 2020
+- **To:** Dec 2023
 - **Responsibilities:** Improvements in the datastore platform; Automation of implementations in the platform using IaC (Ansible, Terraform).
 - **Technologies:** Terraform, Ansible, Shell, GO, Gitlab, PostgreSQL, Mongo DB, BigQuery, Kafka, GCP, Prometheus, Grafana
 
