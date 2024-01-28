@@ -1,35 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta chatset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css" >
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
-        
-        <title>Gustavo Neri</title>
-    </head>
-    <body>
-        <div class="caixa-principal">
-            <nav>
-                <h2 class="porfolio">Portfo<span>lio</span></h2>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Sobre</a></li>
-                    <li><a>CV</a></li>
-                    <li><a>Contatos</a></li>
-                </ul>
-            </nav>
 
-            <div class="meu-nome">
-                <h1>Gustavo <span>Neri</span></h1>
-                <h2>DevOps Engineer</h2>
+<head>
+    <meta chatset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+
+    <title>Gustavo Neri</title>
+</head>
+
+<body>
+    <div class="caixa-principal">
+        <nav>
+            <h2 class="porfolio">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a>Cv</a></li>
+                <li><a href="#conacts">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <div class="meu-nome">
+            <h1>Gustavo <span>Neri</span></h1>
+            <h3>DevOps Engineer</h3>
+        </div>
+
+    </div>
+
+    <section id="aboutme">
+        <img src="./img/guganeri.jpeg" alt="">
+        <div>
+            <h2>About me</h2>
+            <p>I’m a technology enthusiast, that has been working in it since 2012. I started my immersion in the DevOps
+                culture in 2018, where I’ve been working until today. I’m always available and excited to learn new
+                technologies</p>
+            <button>Contacts</button>
+        </div>
+    </section>
+
+    <div class="projetos">
+        <h2>Historico</h2>
+
+        <div class="card-projetos">
+            <div class="card">
+                <img src="./img/empresa1.jpg">
+                <h5>Conductor</h5>
+                <p>Leading platform in Latin America for payment methods and banking as a service. Offers payment solutions.</p>
+                <a href="">Ver Projeto</a>
             </div>
-            
-        </div>        
 
+            <div class="card">
+                <img src="./img/empresa2.jpg">
+                <h5>Neoway</h5>
+                <p>Neoway develops Big Data Analytics and Artificial Intelligence solutions that generate precision for decision-making and productivity for your processes.</p>
+                <a href="">Ver Projeto</a>
+            </div>
 
-    </body>
+            <div class="card">
+                <img src="./img/empresa3.jpg">
+                <h5>Waiting</h5>
+                <p>Loading ... </p>
+                <a href="">Ver Projeto</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="conacts">
+        
+        <h5>Gustavo Neri</h5>
+        <p>Para mais informações</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/gustavo-neri-4bb0a713b/" target="_blank">
+                <img src="./img/lk.png">
+            </a>
+
+            <a href="tel:+351 91* *** ***">
+                <img src="./img/phone.png">
+            </a>
+        </div>
+
+    </footer>
+
+</body>
+
 </html>
